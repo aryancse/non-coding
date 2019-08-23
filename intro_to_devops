@@ -48,3 +48,17 @@ Version Control System and GitHub is a hosting service for Git Repositories.
 repository and on the other hand,the centralized version control are the vcs's in which only centralized repository are their to 
 to store an they also needs internet everytime.
 
+
+***some features--
+lightweight==all the code is compressed 
+secure== uses shai algorithm which also used by the national security agencies od united states of america uses this algorithm
+distributive== many user can work on the same repository
+compatible==apache subversion campatible 
+branching==which is very usefull
+non-linear== branching is one of the example for this
+speed==because it is wwritten in C
+reliable==having backups
+open source
+
+
+
