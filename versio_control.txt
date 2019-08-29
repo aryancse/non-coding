@@ -1,0 +1,66 @@
+***SVN(subversion control open-source under the apache license) it is a version control tool in which the user can only use the 
+main brand it can't create the local repositories for any of the developer
+
+***VERSION CONTROL TOOLS:
+1.GIT?GIT HUB
+2.SVN(SubVersion Control)
+3.CVS
+4.MERCURIAL
+
+***git/github--:GitHub is a web-based service for version control using Git. Basically, it is a social networking site for 
+developers. You can look at other people's code, identify issues with their code and even propose changes. ... In short, Git is 
+Version Control System and GitHub is a hosting service for Git Repositories.
+***git is a destributive version control sysytem because in this centralised repository gave the permission for creating the local 
+repository and on the other hand,the centralized version control are the vcs's in which only centralized repository are their to 
+to store an they also needs internet everytime.
+
+
+***some features--
+lightweight==all the code is compressed 
+secure== uses shai algorithm which also used by the national security agencies od united states of america uses this algorithm
+distributive== many user can work on the same repository
+compatible==apache subversion campatible 
+branching==which is very usefull
+non-linear== branching is one of the example for this
+speed==because it is written in C
+reliable==having backups
+open source
+
+
+****commands****
+***git init--for any creation for new project (only in the local repository)
+***git clone --to work on any existing repository
+***git remote add origin "the link of the repository from the web 'clone or download' option" 
+#to connect to the github repository
+***git pull origin master(this will copy all the files to the local repository)
+***git status (tells how much files are their which are not in the central repo from the local repo)
+***git add filename(this will add the file to the central repo)
+***git commit -m(message flag mandatory)
+***git push origin master
+
+
+****to add multiple files at a time****
+--#(To add all the changes you've made:)
+--git add .  (or-->  git add -A)
+--#(To commit them:)
+--git commit -m "MY MESSAGE HERE" #-m is the message flag
+--#(You can put those steps together like this:)
+--git commit -a -m "MY MESSAGE HERE"
+--#(To push your committed changes from your local repository to your remote repository:)
+--git push origin master 
+
+
+**git branch branchname (to create any branch)
+**git checkout (branchname in which we have to go)
+
+**Rebasing and merging are both designed to integrate changes from one branch into another branch but in different ways.
+      When you do rebase a feature branch onto master, you move the base of the feature branch to master branch’s ending point.
+    Merging takes the contents of the feature branch and integrates it with the master branch. As a result, only the master branch is       changed.  The feature branch history remains same.
+    Merging adds a new commit to your history.
+
+Q..When to rebase? When to Merge?
+
+*If the feature branch you are getting changes from is shared with other developers, rebasing is not recommended, because the rebasing process will create inconsistent repositories. For individuals, rebasing makes a lot of sense.
+
+If you want to see the history completely same as it happened, you should use merge. Merge preserves history whereas rebase rewrites it.
+Rebasing is better to streamline a complex history, you are able to change the commit history by interactive rebase. You can remove undesired commits, squash two or more commits into one or edit the commit message.
