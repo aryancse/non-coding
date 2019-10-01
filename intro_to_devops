@@ -22,7 +22,7 @@ object oriented projects waterfall model is very slow in case no function produc
 
 Q.Infrastructure as code (IaC)?
 Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable 
-definition files, rather than physical hardware configuration or interactive configuration tools.  The definitions may be in 
+definition files, rather than physical hardware configuration or interactive configuration tools.The definitions may be in 
 a version control system.
 
 
