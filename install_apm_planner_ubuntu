@@ -23,5 +23,5 @@ Common problems::__
 
 If you find the APM Planner 2 is unable to connect to the APM2/Pixhawk,
 it may be because of the modemmanager package. Uninstall this package by entering the following command into a terminal window:
-sudo apt-get --purge remove modemmanager
+su do apt-get --purge remove modemmanager
 
