@@ -1,6 +1,6 @@
 step-1->First of all jupyter should be installed at the ec2 server
 step-2->If not installed then install it by using yum or apt respectively according to redhat or ubuntu
-step- 3->Then write
+step-3->Then write
 (make sure you should not be the root user)
 i)jupyter-notebook --ip=0.0.0.0 --no-browser --port=8888 &>/dev/null &
 ii)jupyter-notebook list
