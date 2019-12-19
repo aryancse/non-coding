@@ -4,7 +4,7 @@ step-3->Then write
 (make sure you should not be the root user)
 i) jupyter-notebook --ip=0.0.0.0 --no-browser --port=8888 &>/dev/null &
 ii) jupyter-notebook list
-iii)You will get a token copy it and paste it on the firefox
+iii) You will get a token copy it and paste it on the firefox
 iv)Replace 0.0.0.0 with your public ip of the ec2 server
 
 you will get the jupyter home window!!!
