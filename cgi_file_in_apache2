@@ -1,5 +1,5 @@
 sudo a2enmod cgi
 systemctl restart apache2
-#this will now neglect your err or.
+#this will now neglect your error.
 
 
